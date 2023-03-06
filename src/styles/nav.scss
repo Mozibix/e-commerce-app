@@ -1,0 +1,14 @@
+nav {
+  .logo {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+
+    & > span {
+      border: 1px solid red;
+      padding: 1rem;
+    }
+  }
+}
