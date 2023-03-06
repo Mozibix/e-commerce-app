@@ -5,10 +5,13 @@ import Shoes from "./Shoes";
 export const All = () => {
   return (
     <>
-      <div>
-        all
-        <Clothes />
-        <Shoes />
+      <div className="flex ">
+        <div className="test">
+          <Clothes />
+        </div>
+        <div>
+          <Shoes />
+        </div>
       </div>
     </>
   );

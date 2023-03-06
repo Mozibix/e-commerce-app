@@ -46,3 +46,28 @@
     }
   }
 }
+
+.products_sec {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  img {
+    border: 2px solid $ligh_bg;
+    width: 10rem;
+    height: 8rem;
+  }
+}
+
+.flex {
+  display: inline-grid;
+  gap: 0;
+}
+h2 {
+  padding-top: 0.5rem !important;
+  text-transform: capitalize;
+  text-decoration: underline;
+  font-weight: 600;
+}
