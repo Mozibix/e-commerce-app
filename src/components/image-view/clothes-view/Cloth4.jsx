@@ -10,7 +10,7 @@ const Cloth4 = () => {
       <div className="cloth_view container">
         <div className="cloth_view_inner">
           <div className="btn_sec">
-            <Link to="/clothes" className="">
+            <Link to="/" className="">
               <button className="button back">back</button>
             </Link>
           </div>
