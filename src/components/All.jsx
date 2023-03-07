@@ -5,7 +5,7 @@ import Shoes from "./Shoes";
 export const All = () => {
   return (
     <>
-      <div className="flex ">
+      <div className="flex">
         <div className="test">
           <Clothes />
         </div>

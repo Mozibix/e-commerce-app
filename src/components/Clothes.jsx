@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { clothesData } from "../userdata";
 
 export const Clothes = () => {
@@ -9,9 +10,11 @@ export const Clothes = () => {
 
         <div className="products_sec">
           {clothesData.map((cloth) => (
-            <div className="pointer_cur" key={cloth.id}>
-              <img src={cloth.img_src} alt="clothes" />
-            </div>
+            <Link key={cloth.id} to={cloth.path}>
+              <div className="pointer_cur">
+                <img src={cloth.img_src} alt="clothes" />
+              </div>
+            </Link>
           ))}
         </div>
       </div>
