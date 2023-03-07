@@ -8,7 +8,7 @@ const Shoes = () => {
 
         <div className="products_sec">
           {shoesData.map((shoes) => (
-            <div className="" key={shoes.id}>
+            <div className="pointer_cur" key={shoes.id}>
               <img src={shoes.img_src} alt="shoes" />
             </div>
           ))}

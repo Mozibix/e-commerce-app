@@ -9,7 +9,7 @@ export const Clothes = () => {
 
         <div className="products_sec">
           {clothesData.map((cloth) => (
-            <div className="" key={cloth.id}>
+            <div className="pointer_cur" key={cloth.id}>
               <img src={cloth.img_src} alt="clothes" />
             </div>
           ))}

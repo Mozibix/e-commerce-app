@@ -6,13 +6,13 @@ const Products = () => {
     <>
       <div className="container">
         <div className="filter_section">
-          <Link to="/">
+          <Link className="pointer_cur" to="/">
             <button>All</button>
           </Link>
-          <Link to="/clothes">
+          <Link className="pointer_cur" to="/clothes">
             <button>Clothes</button>
           </Link>
-          <Link to="/shoes">
+          <Link className="pointer_cur" to="/shoes">
             <button>Shoes</button>
           </Link>
         </div>
