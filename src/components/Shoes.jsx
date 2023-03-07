@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { shoesData } from "../userdata";
 
 const Shoes = () => {
@@ -8,9 +9,11 @@ const Shoes = () => {
 
         <div className="products_sec">
           {shoesData.map((shoes) => (
-            <div className="pointer_cur" key={shoes.id}>
-              <img src={shoes.img_src} alt="shoes" />
-            </div>
+            <Link key={shoes.id} to={shoes.path}>
+              <div className="pointer_cur">
+                <img src={shoes.img_src} alt="shoes" />
+              </div>
+            </Link>
           ))}
         </div>
       </div>
