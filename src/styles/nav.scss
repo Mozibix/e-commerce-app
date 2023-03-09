@@ -1,14 +1,14 @@
 nav {
-  .logo {
-    font-size: 2rem;
+  .flex_box {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    gap: 1.5rem;
 
-    & > span {
-      border: 1px solid red;
-      padding: 1rem;
+    .logo {
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
     }
   }
 }
