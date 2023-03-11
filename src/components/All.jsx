@@ -6,9 +6,7 @@ export const All = () => {
   return (
     <>
       <div className="flex">
-        <div className="test">
-          <Clothes />
-        </div>
+        <div>{/* <Clothes /> */}</div>
         <div>
           <Shoes />
         </div>

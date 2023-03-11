@@ -8,7 +8,8 @@ export const Clothes = () => {
       <div className="clothes_sec">
         <h2 className="container">clothes section</h2>
 
-        <div className="products_sec">
+        <h3 className="bold_text">out of stock</h3>
+        {/* <div className="products_sec">
           {clothesData.map((cloth) => (
             <Link key={cloth.id} to={cloth.path}>
               <div className="pointer_cur">
@@ -16,7 +17,7 @@ export const Clothes = () => {
               </div>
             </Link>
           ))}
-        </div>
+        </div> */}
       </div>
     </>
   );
