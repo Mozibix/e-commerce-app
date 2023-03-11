@@ -1,0 +1,11 @@
+nav .flex_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .flex_box .logo {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}/*# sourceMappingURL=nav.css.map */

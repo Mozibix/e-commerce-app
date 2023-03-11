@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { shoesData } from "../../../userdata";
 
-const Shoe3 = () => {
-  const dataImg = shoesData.filter((img) => img.id === 3);
+const Shoe_49 = () => {
+  const dataImg = shoesData.filter((img) => img.id === 49);
   const imgPath = dataImg.map((img) => img.img_src);
   return (
     <>
@@ -26,4 +26,4 @@ const Shoe3 = () => {
   );
 };
 
-export default Shoe3;
+export default Shoe_49;
